@@ -1,0 +1,25 @@
+Hardening Your Router and Devices
+Think of this stage as building up your fortress walls higher and filling the moat with crocodiles.
+Critical Router Settings to Change Immediately
+	1	Turn Off Remote Management: Disable any remote access to your router admin page. Local access only!
+	2	Change Default DNS Servers: Use a secure DNS like Quad9 (9.9.9.9) or Cloudflare (1.1.1.1) to filter malicious traffic.
+	3	Disable Multicast and Peer-to-Peer: Prevent your router from broadcasting unnecessarily and being exploited.
+	4	Turn Off IPv6 (Optional): IPv6 can sometimes leak additional information. If you don’t need it, turn it off.
+	5	Log All Router Traffic: Enable basic logging if your router supports it. This helps you spot anomalies later.
+	6	Set Lease Time to Minimum: Shorten DHCP lease times (e.g., 2-4 hours) to prevent devices from "squatting" on the network longer than necessary.
+Securing Devices Before They Connect
+	1	Reset Devices: Factory reset all devices that connected to your old Wi-Fi before reconnecting them.
+	2	Update All Firmware: Immediately update to the latest software available for laptops, phones, cameras, etc.
+	3	Install Monitoring Tools: Add apps like Little Snitch Mini (Mac) or GlassWire (Windows) to track network activity.
+	4	Install Antivirus and Anti-malware: Even if you’re cautious, a second layer of scanning helps spot dormant infections.
+	5	Prefer Ethernet Connections: Connect critical devices (like workstations) directly via Ethernet whenever possible to reduce wireless attack surfaces.
+Visual: Hardened Router Settings
+￼
+Pro Tip
+Check the device list inside your router’s admin panel regularly. If you see devices with strange names or MAC addresses you don’t recognize, investigate immediately!
+Reference Resources:
+	•	Quad9 Secure DNS: https://www.quad9.net
+	•	Cloudflare Secure DNS: https://1.1.1.1/
+	•	How to Harden Your Router: https://www.cisa.gov/sites/default/files/publications/Protecting-Your-Home-Network-2021.pdf
+← Back: Splitting 2.4GHz and 5/6GHz Traffic | Next: Rebuilding a Safe Network After a Hack →
+AIMF | Practical AI and Cyber Defense Resources | www.aimarketingflow.com
