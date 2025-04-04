@@ -1,0 +1,23 @@
+Rebuilding a Safe Network After a Hack
+Once your network is compromised, it’s safer to treat every device and connection as untrustworthy until proven otherwise. Rebuilding smartly is your best defense.
+Steps to Rebuild Your Network Safely
+	1	Buy a New Router: If you can, replace your old router. Hackers sometimes implant backdoors directly into router firmware.
+	2	Set Up the New Router Securely:
+	◦	Use all the lockdown settings we discussed earlier.
+	◦	Set up different SSIDs for 2.4GHz and 5/6GHz again.
+	3	Reset All Devices Before Reconnecting: Factory reset phones, laptops, smart devices before joining them to the new network.
+	4	Temporarily Disable All Wireless: Turn off Bluetooth and Wi-Fi completely when setting up clean devices. Use Ethernet only if possible.
+	5	Analyze Network Traffic: Install Wireshark or Little Snitch Mini before connecting to anything. Watch your network for any weird connections.
+	6	Use a Faraday Bag: Store infected or suspicious devices inside Faraday bags to prevent wireless contamination while rebuilding clean devices.
+	7	Scan Everything Before Trusting: Use antivirus, malware scanners, and manual packet inspection to verify a device is clean before reconnecting it.
+	8	Install Updates Immediately: Patch everything to the latest software before logging into important accounts (email, banking, etc.).
+	9	Delay Adding IoT Devices: Wait until the very end to reconnect smart bulbs, cameras, etc. They are the highest risk.
+Visual: Rebuild Process Flowchart
+￼
+Pro Tip
+⚡ If you're not 100% sure about a device, keep it isolated until you can safely monitor its traffic for a few hours or even days. Trust your data, not the brand name.
+Reference Resources:
+	•	Wireshark Beginner’s Guide: https://www.wireshark.org/docs/wsug_html_chunked/
+	•	Best Faraday Bags Guide: https://www.security.org/privacy/best-faraday-bags/
+← Back: Hardening Your Router and Devices | Next: Monitoring with Wireshark and Other Tools →
+AIMF | Practical AI and Cyber Defense Resources | www.aimarketingflow.com
