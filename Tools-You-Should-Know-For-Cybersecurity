@@ -1,0 +1,25 @@
+Tools You Should Know
+Having the right tools makes the difference between guessing and knowing. These apps and hardware tools form the foundation of a good cybersecurity practice at home or in a small business.
+Network Monitoring
+	•	Wireshark: Professional-grade packet analyzer. See every connection your device makes. https://www.wireshark.org/
+	•	pcapdroid (Android): Monitor and log traffic from your phone without needing root access. https://www.pcapdroid.org/
+	•	Little Snitch Mini (Mac): Visualize outgoing traffic, block unknown domains easily. https://apps.apple.com/us/app/little-snitch-mini/id6445986371
+	•	NetLimiter (Windows): Monitor and control app connections individually. https://www.netlimiter.com/
+Backup and Recovery
+	•	Time Machine (Mac Offline): Backup to external drives, avoid iCloud until device is clean.
+	•	Clonezilla: Open-source disk cloning software for full system backups. https://clonezilla.org/
+Authentication and Access
+	•	Google Authenticator: Basic 2FA app, easy to recover via Google account.
+	•	Microsoft Authenticator: More secure but harder to recover — use with caution.
+	•	YubiKey: Physical hardware security keys for the strongest 2FA. https://www.yubico.com/
+	•	Proton Pass: End-to-end encrypted password manager, excellent for recovery flow. https://proton.me/pass
+Faraday Protection
+	•	Mission Darkness Faraday Bags: Seal devices from radio signals. https://www.missiondarkness.com/
+	•	Silent Pocket Faraday Cases: Stylish signal-blocking accessories. https://silent-pocket.com/
+AI-Assisted Traffic Analysis
+	•	CloudShark: Upload Wireshark captures for graphical web-based analysis. https://www.cloudshark.org/
+	•	PacketTotal: Free automated packet capture analysis tool. https://packettotal.com/
+Visual: Core Tools for Building Your Digital Fortress
+￼
+Next: Appendix: IP Subnets Simplified →
+AIMF | Practical AI and Cyber Defense Resources | www.aimarketingflow.com
