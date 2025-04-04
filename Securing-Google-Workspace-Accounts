@@ -1,0 +1,37 @@
+Securing Google Workspace Accounts
+Google Workspace holds the keys to your business. If attackers gain access, they can compromise not just emails, but documents, user accounts, Google Drive files, and even billing.
+Layered Security Approach
+	1	Enable 2-Step Verification for All Users:
+	◦	Require 2FA globally via the Admin Console.
+	◦	Options include Google Prompt (on a registered phone), authenticator apps, backup codes, or security keys.
+	◦	⚡ Important: Plan as if one factor may fail (e.g., phone stolen) — have multiple backup methods ready.
+	2	Deploy Physical Security Keys (Highly Recommended):
+	◦	USB/NFC keys (like Titan Security Key or YubiKey) are the gold standard.
+	◦	Register multiple keys if possible (main + backup stored offline securely).
+	◦	Remember: If a key is stolen, immediately revoke it in the Admin Console.
+	3	Understand Passkeys:
+	◦	Passkeys tie your login to a physical device (e.g., your phone's biometric system).
+	◦	They replace traditional passwords with device-based authentication.
+	◦	Useful but beware — if your device is compromised, so is your account access.
+	4	Restrict Login by IP Range (If Possible):
+	◦	Allow admin access only from known Wi-Fi networks or VPNs.
+	◦	Block logins from random hotel or public Wi-Fi networks by enforcing context-aware access.
+	5	Monitor Your Admin Console:
+	◦	Check Security > Login Audit regularly for suspicious attempts.
+	◦	Force logouts of inactive or suspicious devices immediately.
+	6	Disable Outdated 2FA Methods:
+	◦	Remove backup phone numbers or email-based 2FA.
+	◦	Attackers frequently SIM swap to bypass these methods.
+Real-World Survival Tip
+📢 If your passkeys are stolen, do NOT log out of your active device. Google Workspace requires the original authentication to manage users. Instead:
+	•	Use "Recover My Account" flow while staying logged into the admin panel.
+	•	After recovery, delete all old passkeys and security keys linked to your workspace.
+	•	Reset admin passwords directly inside the Google Admin Console, not externally.
+Visual: Secure Workspace Access
+￼
+Reference Resources:
+	•	Google Workspace Security Recommendations: https://support.google.com/a/answer/7587183
+	•	How Google 2-Step Verification Works: https://support.google.com/accounts/answer/185839
+	•	How Passkeys Work: https://passkeys.dev/
+← Back: Locking Down Your Wi-Fi | Next: Splitting 2.4GHz and 5/6GHz Traffic →
+AIMF | Practical AI and Cyber Defense Resources | www.aimarketingflow.com
