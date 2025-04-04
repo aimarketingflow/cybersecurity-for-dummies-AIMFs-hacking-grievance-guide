@@ -1,0 +1,23 @@
+Locking Down Your Wi-Fi
+Your Wi-Fi network is the #1 entry point for modern attackers. Locking it down is like building a heavily defended gate and watchtowers around your fortress.
+Step-by-Step Wi-Fi Hardening Checklist
+	1	Change Admin Login: Go to your router’s login page (usually 192.168.1.1 or 192.168.0.1), and change the default username and password. Use a long random password generated from a secure password manager.
+	2	Update Router Firmware: Always check if your router has a firmware update option. This patches security holes that hackers exploit.
+	3	Use WPA3 Encryption: Set your Wi-Fi security mode to WPA3 if your router supports it. If not, use WPA2-AES only (never TKIP).
+	4	Split 2.4 GHz and 5/6 GHz Networks:
+	◦	Name them differently (e.g., "MyNetwork-5G" and "MyNetwork-2G").
+	◦	Connect IoT devices only to 2.4 GHz (smart bulbs, vacuums, cameras).
+	◦	Connect phones, laptops, and gaming systems to 5/6 GHz for higher speed and security.
+	5	Disable WPS: Wi-Fi Protected Setup is a major vulnerability. Disable it completely.
+	6	Disable UPnP: Universal Plug and Play is used by many IoT hacks to open ports automatically. Turn it off unless absolutely necessary for gaming consoles or streaming devices (and even then, restrict the device in your firewall).
+	7	Set Static IPs for Critical Devices: Assign static IPs (Reserved IPs) to your phone, laptop, and security cameras. This prevents IP hijacking and makes network tracking easier.
+	8	MAC Filtering (Optional): Create a whitelist of allowed MAC addresses. Only devices you specifically authorize can connect.
+	9	Set Narrow DHCP Range: Instead of giving out 100+ IP addresses, restrict the DHCP server to a very tight range (e.g., 192.168.1.10 - 192.168.1.50) to limit unknown devices from connecting easily.
+	10	Hide SSIDs (Optional): You can choose not to broadcast your network names publicly. However, hidden SSIDs aren't a true security layer — they can still be found with Wi-Fi sniffers.
+	11	Reduce Transmit Power: Lower your router’s transmit strength to cover only your home. No need to broadcast your Wi-Fi to the neighbors!
+Visual: Properly Secured Wi-Fi Setup
+￼
+Pro Tip
+Once you lock down your Wi-Fi, periodically scan for unknown devices. Apps like Fing or tools like Wireshark can help you spot "rogue" devices that sneak onto your network.
+← Back: Fortress Metaphor | Next: Securing Google Workspace →
+AIMF | Practical AI and Cyber Defense Resources | www.aimarketingflow.com
