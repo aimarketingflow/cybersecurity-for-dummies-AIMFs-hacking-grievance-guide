@@ -1,0 +1,25 @@
+Emergency Steps After a Hack
+If you believe you've been hacked, act fast but calmly. Treat it like a digital fire drill: the earlier you move, the more you can save.
+Immediate Actions
+	1	Disconnect Internet Immediately: Unplug your router and disable Wi-Fi on all devices.
+	2	Power Down Devices: Shut down phones, laptops, tablets completely.
+	3	Faraday Bag Compromised Devices: Place any devices you suspect are compromised into Faraday bags to prevent remote tampering.
+Recovery Process
+	1	Start Fresh: Ideally, use new hardware for recovery. If that's not possible, factory reset infected devices without reconnecting to the internet first.
+	2	Secure Your Admin Accounts: Prioritize Workspace Admin Console access. Stay logged in if possible; do not force a logout if you lose passkeys.
+	3	Backup Remaining Clean Data: Use encrypted external drives, not cloud services.
+	4	Rebuild Network Safely: Replace the router, set new Wi-Fi SSID and passwords, isolate 2.4GHz devices separately.
+Important Tips
+	•	Don't reuse old passwords — use a clean password manager like Proton Pass after reset.
+	•	Audit your recovery emails and backup phone numbers linked to critical accounts.
+	•	If your phone number was stolen (SIM swap), contact your provider’s fraud department immediately.
+	•	Report identity theft to the FTC: https://www.identitytheft.gov/
+Visual: Emergency Response Checklist
+￼
+Critical Recovery Links:
+	•	Google Workspace Admin Recovery Help: https://support.google.com/a/answer/33314
+	•	Apple ID Recovery: https://support.apple.com/en-us/HT204921
+	•	Microsoft Account Recovery: https://account.live.com/acsr
+	•	IdentityTheft.gov: https://www.identitytheft.gov/
+Next: Realistic Threats Explained →
+AIMF | Practical AI and Cyber Defense Resources | www.aimarketingflow.com
