@@ -1,0 +1,28 @@
+Monitoring with Wireshark and Other Tools
+After rebuilding your network, the work isn’t over. Constant monitoring keeps you ahead of any sneaky threats trying to creep back in.
+Using Wireshark on Desktop
+	1	Install on a Clean Machine: Preferably from the official website: https://www.wireshark.org/
+	2	Run in Monitor Mode: Capture packets even if they aren't addressed directly to you (if supported).
+	3	Look for:
+	◦	Strange DNS requests (especially odd subdomains).
+	◦	Constant outbound connections to unknown IPs.
+	◦	Unusual TCP/UDP ports being used.
+	4	Use Visualizations: Use the I/O Graphs to spot traffic bursts from hacked devices when they turn on or connect.
+Using pcapdroid on Android
+	1	Install pcapdroid: Download from F-Droid or GitHub for safer versions.
+	2	Record Network Logs: Save .pcap files onto an external flash drive.
+	3	Analyze Later: Open those .pcap files in Wireshark for deeper inspection.
+Using Little Snitch Mini on Mac
+	1	Monitor Outbound Connections: Instantly see what’s trying to "call home" from your Mac.
+	2	Block Suspicious Domains: Allow only what you explicitly trust.
+	3	Use 'Restart From Now' Feature: Reset traffic logs and test live what connections happen when you open specific apps or websites.
+Baseline vs Infected Visuals
+￼
+Pro Tip
+Shorten your Wireshark capture lengths. Capture 10-30 second windows to reduce noise and spot patterns more easily. Export suspicious segments as individual files for AI analysis.
+Reference Resources:
+	•	Wireshark Beginner Tutorials: https://www.wireshark.org/docs/wsug_html_chunked/
+	•	pcapdroid for Android: https://www.kismetwireless.net/pcapdroid/
+	•	Little Snitch Mini Overview: https://obdev.at/products/littlesnitch-mini/index.html
+← Back: Rebuilding a Safe Network After a Hack | Next: Browser Safety and Final Tips →
+AIMF | Practical AI and Cyber Defense Resources | www.aimarketingflow.com
