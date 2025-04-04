@@ -1,0 +1,24 @@
+Appendix: IP Subnets Simplified
+IP addresses and subnets sound intimidating — but once you get the basics, it's actually logical. Subnets help segment devices on a network, acting like invisible walls inside your digital fortress.
+What is an IP Address?
+	•	An IP Address is like your device's "home address" on a network. Example: 192.168.1.5
+	•	Every device connected to Wi-Fi or Ethernet has one.
+What is a Subnet?
+	•	A Subnet divides a network into smaller groups to control traffic flow.
+	•	It isolates devices — if someone hacks your smart fridge, a good subnet setup keeps them from reaching your laptop.
+	•	Subnet masks are written like 255.255.255.0 — think of them like "invisible fences."
+Real-World Example
+	•	Home Network: 192.168.1.1 to 192.168.1.254 (Router assigns IPs to all devices).
+	•	Subnet Mask: 255.255.255.0 → Only devices inside 192.168.1.x can talk to each other.
+Advanced Threat: Subnet Mask Spoofing
+	•	Attackers can spoof subnet masks to make malicious devices appear "safe."
+	•	Example: Pretending 203.0.113.50 is part of 192.168.1.x using malicious routing tricks.
+	•	This is rare but increasingly possible with AI-assisted hacking tools.
+Visual: Subnet Fencing Concept
+￼
+Useful Learning Resources:
+	•	What is a Subnet? https://www.cloudflare.com/learning/network-layer/what-is-a-subnet/
+	•	IP Subnetting Made Easy: https://www.iplocation.net/subnetting
+	•	Subnet Cheat Sheet: https://dnschecker.org/ip-subnet-mask-cheat-sheet.php
+Next: Resource Links →
+AIMF | Practical AI and Cyber Defense Resources | www.aimarketingflow.com
