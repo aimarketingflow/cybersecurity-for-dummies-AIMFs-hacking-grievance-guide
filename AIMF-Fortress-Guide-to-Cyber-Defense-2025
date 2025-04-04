@@ -1,0 +1,30 @@
+AIMF Fortress Guide to Cyber Defense 2025
+Created by: Hana Omori, AIMF | https://www.aimarketingflow.com
+Foreword
+Hi there,
+I am not a certified cybersecurity expert. I’m a tech SEO by background, which – in many ways – is cybersecurity backwards. SEO is about helping the right traffic find you, while cybersecurity is about keeping the wrong traffic out.
+Over the past few months, I personally experienced severe identity theft, mail fraud, bank fraud, loan fraud, SIM swapping, and attacks across multiple routers and wireless providers.
+In December 2024, I discovered an improper packet warning while using AT&T’s browser connection. Two hours after reporting it, the U.S. Treasury hack was announced publicly.
+Based on my experiences, I strongly recommend against using AT&T if you can avoid it. Cox Communications consistently provided better security protections.
+I used AI extensively during this process to break down and learn cybersecurity practices in real time.
+As part of this, I worked heavily with Windsurf AI to debug issues. I highly caution against using no-code AI systems or downloading packages from third-party sources without fully vetting them. Always research how to properly install and secure packages, especially in Python environments (i.e., use safety.cli and verify dependencies).
+A lot of AI platforms now integrate third-party packages without clear vetting, and this can introduce significant vulnerabilities to your systems.
+As a big Mr. Robot fan, I grew up believing hacking was like chasing a great white whale – rare, complex, and elite.
+But today, hacking has evolved into something far scarier: fishing with dynamite.
+AI has made cyberattacks scalable and automated, meaning anyone connected to the internet is at risk, not just governments or corporations.
+I hope this guide helps you build your own digital fortress – and protect your business, your work, and your life in this new era.
+Table of Contents
+	1	Fortress Metaphor
+	2	Locking Down Your Wi-Fi
+	3	Securing Google Workspace
+	4	Splitting 2.4GHz and 5/6GHz Traffic
+	5	Hard Reset and Baseline
+	6	Using Wireshark + pcapdroid
+	7	Faraday Bag Defense
+	8	Emergency Steps After a Hack
+	9	Choosing Better Browsers
+	10	Realistic Threats Explained
+	11	Tools You Should Know
+	12	Appendix: IP Subnets Simplified
+	13	Resource Links
+AIMF | Practical AI and Cyber Defense Resources | https://www.aimarketingflow.com
