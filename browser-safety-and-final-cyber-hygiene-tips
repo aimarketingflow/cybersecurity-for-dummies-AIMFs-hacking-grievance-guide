@@ -1,0 +1,34 @@
+Browser Safety and Final Cyber Hygiene Tips
+Web browsers are one of the biggest open doors to your fortress. Choosing the right one and using it properly can make all the difference.
+Recommended Browsers
+	•	Mac: Safari
+	◦	Best integration with Apple security features.
+	◦	Hides URL navigation activity from third parties (DNS masking).
+	◦	⚡ CAUTION: Still tied to your Apple ID — keep a clean separation!
+	•	Windows: Firefox (with privacy settings maxed)
+	◦	Regular security updates.
+	◦	Open-source and transparent privacy options.
+Emerging Secure Browsers
+	•	Librewolf: Hardened Firefox fork, privacy-first, no telemetry. https://librewolf.net/
+	•	Mullvad Browser: Built for anonymity, integrates with VPN concepts. https://mullvad.net/en/browser/
+Browser Behavior Tips
+	1	Block all third-party cookies.
+	2	Use strict or custom DNS settings: (e.g., Quad9 or Cloudflare). Consider adding DNS-over-HTTPS (DoH).
+	3	Disable browser password managers. Use external password managers instead (but vet them carefully!).
+	4	Whitelist Websites: Only allow connections to websites you intentionally visit.
+	5	Inspect Websites: Use DevTools (Inspect Element) to identify necessary resources to load safely (Hana's YouTube video guide forthcoming!).
+Extra Final Tips
+	•	Always prefer Ethernet to Wi-Fi when setting up anything sensitive.
+	•	Don't trust any device fully until you've watched its network behavior for a few days.
+	•	Don’t reuse passwords anywhere — use a unique one for every site.
+	•	Enable alerts on your email and bank accounts for every login.
+	•	Backup critical files to an offline device (external SSD, encrypted if possible).
+Visual: Browser and Cyber Hygiene Checklist
+￼
+Reference Resources:
+	•	Librewolf Secure Browser: https://librewolf.net/
+	•	Mullvad Privacy Browser: https://mullvad.net/en/browser/
+	•	Quad9 Secure DNS: https://www.quad9.net
+	•	Firefox Privacy Settings Guide: https://privacyguides.org/browsers/
+← Back: Monitoring with Wireshark and Other Tools | 🏰 Back to Table of Contents
+AIMF | Practical AI and Cyber Defense Resources | www.aimarketingflow.com
