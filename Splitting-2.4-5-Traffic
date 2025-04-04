@@ -1,0 +1,26 @@
+Splitting 2.4GHz and 5/6GHz Traffic
+Separating your devices across 2.4GHz and 5/6GHz Wi-Fi networks is like organizing your fortress gates — small packages go through one door, sensitive communications go through another.
+Why Split Your Traffic?
+	•	2.4GHz: Longer range, lower speed, more vulnerable. Best for smart devices (IoT) like cameras, smart bulbs, printers.
+	•	5/6GHz: Shorter range, much faster speed, higher security. Best for phones, laptops, gaming consoles, work devices.
+By splitting them:
+	•	Attackers have a harder time pivoting from an insecure IoT device to your personal computer.
+	•	You can turn off the 2.4GHz network when not needed (for added security layers).
+	•	Monitoring becomes easier: Less noise on your main device network.
+How to Set It Up:
+	1	Access Router Settings: Typically at 192.168.1.1 or 192.168.0.1.
+	2	Create Separate SSIDs:
+	◦	Example: "HomeSecure-5G" and "HomeSecure-IoT".
+	◦	Use strong passwords for both networks.
+	3	Use WPA3 on 5/6GHz: If possible, ensure the high-security devices are using WPA3 encryption.
+	4	Keep 2.4GHz on WPA2-AES: Necessary for older IoT devices (like Chromecast, security cameras, etc.).
+	5	Turn off 2.4GHz when not needed: Use router settings to disable the network during hours when IoT devices aren't needed.
+Visual: 2.4GHz vs 5/6GHz Network Split
+￼
+Extra Tip
+Some routers let you create a Guest Network. Put visitors or "untrusted" devices on this network — never on your main Wi-Fi!
+Reference Resources:
+	•	Google Nest Split Networks Guide: https://support.google.com/googlenest/answer/9083884
+	•	Wi-Fi 6 vs Wi-Fi 5 Explained: https://www.intel.com/content/www/us/en/tech-tips-and-tricks/wi-fi-6-vs-wi-fi-5.html
+← Back: Securing Google Workspace | Next: Hardening Your Router and Devices →
+AIMF | Practical AI and Cyber Defense Resources | www.aimarketingflow.com
